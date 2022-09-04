@@ -19,7 +19,7 @@ public class CreateAccoutServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/account/create.jsp").forward(req,resp);
+        req.getRequestDispatcher("/3/create.jsp").forward(req,resp);
     }
 
     @Override

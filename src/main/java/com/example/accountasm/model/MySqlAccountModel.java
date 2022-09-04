@@ -14,7 +14,7 @@ public class MySqlAccountModel implements AccountModel{
     private static final String INSERT_ACCOUNT = "INSERT INTO accounts (fullName, username, email, password, status ) VALUES (?, ?, ?, ?, ?);";
     private static final String UPDATE_ACCOUNT = "UPDATE accounts SET fullName = ?, username = ?, email = ?, password = ?, status = ? WHERE id = ?;";
     private static final String DELETE_ACCOUNT = "DELETE FROM accounts WHERE id = ?";
-    private static final String FIND_BY_ID = "SELECT * FROM accounts WHERE id = ?";
+    private static final String FIND_BY_ID = "SELECT * FROM accounts WHERE id = ?"; 
     private static final String FIND_BY_ALL = "SELECT * FROM accounts;";
 
     @Override
